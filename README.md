@@ -1,6 +1,6 @@
-# qoder-skills
+# douyin-publish-skill
 
-我个人沉淀的 Qoder Agent Skills 集合。每个子目录是一个独立技能，可单独取用。
+用 Qoder Agent Skill 制作抖音知识动画视频的技能仓库。每个子目录是一个独立技能，可单独取用。
 
 ## 技能列表
 
