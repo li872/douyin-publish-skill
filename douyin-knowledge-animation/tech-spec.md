@@ -57,6 +57,11 @@ if(auto && el>=lim){                     // lim = 封面3000ms / pageSec*1000
 
 // 6) 交互：click / Enter → go(0)+setAuto(true)；箭头翻页先 setAuto(false)
 //    空格翻页必须 e.preventDefault()（防按钮焦点冲突）
+
+// 7) 封面导出（必须内置）：C 键 → 渲染 4:3(1440×1080) + 3:4(1080×1440) 两张离屏
+//    canvas 并 toDataURL 下载；共用 drawCoverArt(g,w,h)，内部按 w>h 分横竖两套排版，
+//    全部元素锁进中央区域（横版宽70%×高76%，竖版宽84%×高66%），四周只留弱纹理
+//    暴露 window.renderCover(ratio) 返回 dataURL，供程序化验证/外部截图
 ```
 
 ## 绘制函数约定
