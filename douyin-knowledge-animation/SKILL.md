@@ -1,6 +1,7 @@
 ---
 name: douyin-knowledge-animation
 description: 制作抖音竖屏纯动画知识科普视频（网页 Canvas 动画 + 卡点 BGM 格式）。将任意知识主题拆解为"悬念封面 + 一句金句一页动画 + 结尾定格"的单文件 HTML 竖屏动画，供录屏后配 DJ 热歌发布。当用户要做抖音知识动画、竖屏科普动画、卡点动画视频、"一句歌词一个画面"式内容，或要求把原理/公式做成动画时使用。
+version: 1.0.0
 ---
 
 # 抖音知识动画（竖屏卡点纯动画）
@@ -66,5 +67,5 @@ Task Progress:
 
 ## 详细资料
 
-- 技术骨架与关键代码模式：[tech-spec.md](tech-spec.md)
-- 发布与流量策略（文案/踩点/发布时间）：[publish.md](publish.md)
+- 技术骨架与关键代码模式：[tech-spec.md](references/tech-spec.md)
+- 发布与流量策略（文案/踩点/发布时间）：[publish.md](references/publish.md)

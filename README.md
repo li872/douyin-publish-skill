@@ -10,7 +10,14 @@
 
 ## 安装使用
 
-把想要的技能文件夹复制到 Qoder 的技能目录即可：
+一键安装（macOS / Linux / Git Bash）：
+
+```bash
+git clone https://github.com/li872/douyin-publish-skill
+cp -r douyin-publish-skill/douyin-knowledge-animation ~/.qoder/skills/
+```
+
+或手动把想要的技能文件夹复制到 Qoder 的技能目录：
 
 ```
 # 个人技能（所有项目全局生效）
